@@ -1,0 +1,35 @@
+1 - Go to proto-ai-commerce.php and change:
+
+######################## Environment dependent variables ########################
+
+    define( 'PAIC_API_DOMAIN', "https://staging.api.proto.ai" );
+
+######################## Environment dependent variables ########################
+
+
+2 - Go to js/proto-ai-header-functions.js and change:
+
+//######################## Environment dependent variables ########################
+
+    var domain_url = "https://staging.api.proto.ai";
+
+//######################## Environment dependent variables ########################
+
+
+3 - Go to js/no-woo-commerce/proto-ai-header-functions.js and change:
+
+
+//######################## Environment dependent variables ########################
+
+    var domain_url = "https://staging.api.proto.ai";
+
+//######################## Environment dependent variables ########################
+
+
+4 - Go to proto_ai_recommendations.php and change:
+
+//######################## Environment dependent variables ########################
+
+    var domain_url = "https://staging.api.proto.ai";
+
+//######################## Environment dependent variables ########################
